@@ -1,0 +1,50 @@
+html, body {
+    height: 100%;
+    margin: 0;
+  }
+
+  body {
+    display: flex;
+    flex-direction: column;
+  }
+
+  main {
+    flex: 1;
+  }
+
+  /* Warna Custom */
+
+/* Kuning utama */
+.text-warna-1 { color: #FDB137 !important; }
+.text-warna-1:hover {
+    color: #e69d2a !important;
+  }
+.bg-warna-1 { background-color: #FDB137 !important; }
+
+/* Kuning muda */
+.text-warna-2 { color: #FEEAA5 !important; }
+.bg-warna-2 { background-color: #FEEAA5 !important; }
+
+/* Putih krem */
+.text-warna-3 { color: #F9F8F3 !important; }
+.bg-warna-3 { background-color: #F9F8F3 !important; }
+
+/* Abu-abu lembut */
+.text-warna-4 { color: #C1D1D1 !important; }
+.bg-warna-4 { background-color: #C1D1D1 !important; }
+
+/* Biru-abu gelap */
+.text-warna-5 { color: #4A686A !important; }
+.bg-warna-5 { background-color: #4A686A !important; }
+.bg-warna-5-hover:hover {
+    background-color: #3b5556  !important;
+  }
+
+  .card-hover:hover .card-title,
+  .card-hover:hover .card-text {
+    color: #FDB137 !important; /* Warna kuning utama kamu */
+    transition: color 0.3s ease;
+  }
+  
+  
+  
